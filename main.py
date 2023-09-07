@@ -101,7 +101,6 @@ def main():
         x_corners, y_corners = plot_car(x,y,th)
         plt.plot(x_corners + [x_corners[0]], y_corners + [y_corners[0]],'k')
         plt.pause(0.001)
-        # plt.show()
 
     plt.show()
 
